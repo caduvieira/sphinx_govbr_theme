@@ -85,12 +85,12 @@ incompatible changes, deprecations, and major features are noted for each of
 these releases.
 
 Releases follow `semantic versioning`_, and so it is generally recommended that
-authors pin dependency on ``sphinx_rtd_theme`` to a version below the next major
+authors pin dependency on ``sphinx_govbr_theme`` to a version below the next major
 version:
 
 .. code:: console
 
-    $ pip install "sphinx_rtd_theme<=2.0.0"
+    $ pip install "sphinx_govbr_theme<=2.0.0"
 
 .. _semantic versioning: http://semver.org/
 
@@ -160,7 +160,7 @@ HTML4 support will be removed
     and builds attempting to use the HTML4 writer will fail. If you are still
     using the HTML4 writer, or have the ``html4_writer = True`` option in your
     Sphinx configuration file, you will need to either remove this option or pin
-    your dependency to ``sphinx_rtd_theme<=2.0.0`` until you can.
+    your dependency to ``sphinx_govbr_theme<=2.0.0`` until you can.
 
     This option was suggested in the past to work around issues with HTML5
     support and should no longer be required to use a modern combination of this

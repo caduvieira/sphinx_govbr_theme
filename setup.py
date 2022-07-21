@@ -86,13 +86,13 @@ class TransifexCommand(distutils.cmd.Command):
 
 
 setup(
-    name='sphinx_rtd_theme',
-    version='1.0.1alpha1',
-    url='https://github.com/readthedocs/sphinx_rtd_theme',
+    name='sphinx_govbr_theme',
+    version='1.0.0',
+    url='https://github.com/caduvieira/sphinx_govbr_theme',
     license='MIT',
-    author='Dave Snider, Read the Docs, Inc. & contributors',
+    author='Baseado no Read the Docs, Inc. & contributors',
     author_email='dev@readthedocs.org',
-    description='Read the Docs theme for Sphinx',
+    description='Tema gov.br para Sphinx',
     long_description=open('README.rst', encoding='utf-8').read(),
     cmdclass={
         'update_translations': UpdateTranslationsCommand,
@@ -101,8 +101,8 @@ setup(
         'watch': WebpackDevelopCommand,
     },
     zip_safe=False,
-    packages=['sphinx_rtd_theme'],
-    package_data={'sphinx_rtd_theme': [
+    packages=['sphinx_govbr_theme'],
+    package_data={'sphinx_govbr_theme': [
         'theme.conf',
         '*.html',
         'static/css/*.css',
@@ -113,7 +113,7 @@ setup(
     # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
     entry_points = {
         'sphinx.html_themes': [
-            'sphinx_rtd_theme = sphinx_rtd_theme',
+            'sphinx_govbr_theme = sphinx_govbr_theme',
         ]
     },
     python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*',
@@ -150,8 +150,8 @@ setup(
         'Topic :: Software Development :: Documentation',
     ],
     project_urls={
-        'Homepage': 'https://sphinx-rtd-theme.readthedocs.io/',
-        'Source Code': 'https://github.com/readthedocs/sphinx_rtd_theme',
-        'Issue Tracker': 'https://github.com/readthedocs/sphinx_rtd_theme/issues',
+        'Homepage': 'https://sphinx-govbr-theme.readthedocs.io/',
+        'Source Code': 'https://github.com/caduvieira/sphinx_govbr_theme',
+        'Issue Tracker': 'https://github.com/caduvieira/sphinx_govbr_theme/issues',
     },
 )

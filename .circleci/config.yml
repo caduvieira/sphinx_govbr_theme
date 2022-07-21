@@ -22,10 +22,10 @@ commands:
       - run:
           name: Ensure built assets are up to date
           command: |
-            if [[ `git status sphinx_rtd_theme/ --porcelain` ]]
+            if [[ `git status sphinx_govbr_theme/ --porcelain` ]]
             then
               echo "ERROR: assets are out of date. Make sure to run 'npm run build' on your branch."
-              git status sphinx_rtd_theme/ --porcelain
+              git status sphinx_govbr_theme/ --porcelain
               exit 1
             fi
 

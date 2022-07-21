@@ -9,18 +9,18 @@ import re
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.append(os.path.abspath('./demo/'))
 
-import sphinx_rtd_theme
-from sphinx_rtd_theme import __version__ as theme_version
-from sphinx_rtd_theme import __version_full__ as theme_version_full
+import sphinx_govbr_theme
+from sphinx_govbr_theme import __version__ as theme_version
+from sphinx_govbr_theme import __version_full__ as theme_version_full
 from sphinx.locale import _
 
-project = u'Read the Docs Sphinx Theme'
+project = u'Tema Gov.BR para manuais'
 slug = re.sub(r'\W+', '-', project.lower())
 version = theme_version
 release = theme_version_full
-author = u'Dave Snider, Read the Docs, Inc. & contributors'
+author = u'Baseado no Read the Docs, Inc. & contributors'
 copyright = author
-language = 'en'
+language = 'pt_BR'
 
 extensions = [
     'sphinx.ext.intersphinx',
@@ -28,7 +28,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinxcontrib.httpdomain',
-    'sphinx_rtd_theme',
+    'sphinx_govbr_theme',
 ]
 
 templates_path = ['_templates']
@@ -46,9 +46,9 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_govbr_theme'
 html_theme_options = {
-    'logo_only': True,
+    'logo_only': False,
     'navigation_depth': 5,
 }
 html_context = {}
@@ -63,7 +63,7 @@ if not 'READTHEDOCS' in os.environ:
         range(1, 100)
     ))
 
-html_logo = "demo/static/logo-wordmark-light.svg"
+html_logo = "static/Gov.br_logo.svg"
 html_show_sourcelink = True
 
 htmlhelp_basename = slug

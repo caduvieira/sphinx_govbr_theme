@@ -2,14 +2,14 @@
 Read the Docs Sphinx Theme
 **************************
 
-.. image:: https://img.shields.io/pypi/v/sphinx_rtd_theme.svg
-   :target: https://pypi.python.org/pypi/sphinx_rtd_theme
+.. image:: https://img.shields.io/pypi/v/sphinx_govbr_theme.svg
+   :target: https://pypi.python.org/pypi/sphinx_govbr_theme
    :alt: Pypi Version
-.. image:: https://circleci.com/gh/readthedocs/sphinx_rtd_theme.svg?style=svg
+.. image:: https://circleci.com/gh/readthedocs/sphinx_govbr_theme.svg?style=svg
    :alt: Build Status
-   :target: https://circleci.com/gh/readthedocs/sphinx_rtd_theme
-.. image:: https://img.shields.io/pypi/l/sphinx_rtd_theme.svg
-   :target: https://pypi.python.org/pypi/sphinx_rtd_theme/
+   :target: https://circleci.com/gh/readthedocs/sphinx_govbr_theme
+.. image:: https://img.shields.io/pypi/l/sphinx_govbr_theme.svg
+   :target: https://pypi.python.org/pypi/sphinx_govbr_theme/
    :alt: License
 .. image:: https://readthedocs.org/projects/sphinx-rtd-theme/badge/?version=latest
   :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
@@ -38,7 +38,7 @@ your ``conf.py`` file's ``html_theme`` setting:
 
 .. code:: python
 
-    html_theme = "sphinx_rtd_theme"
+    html_theme = "sphinx_govbr_theme"
 
 .. admonition:: See also:
 
@@ -51,7 +51,7 @@ your ``conf.py`` file's ``html_theme`` setting:
     `Example documentation`_
         A full example of this theme output, with localized strings enabled.
 
-.. _PyPI: https://pypi.python.org/pypi/sphinx_rtd_theme
+.. _PyPI: https://pypi.python.org/pypi/sphinx_govbr_theme
 .. _Supported browsers: https://sphinx-rtd-theme.readthedocs.io/en/stable/development.html#supported-browsers
 .. _Supported dependencies: https://sphinx-rtd-theme.readthedocs.io/en/stable/development.html#supported-dependencies
 .. _Example documentation:  https://sphinx-rtd-theme.readthedocs.io/en/stable/

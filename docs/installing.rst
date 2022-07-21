@@ -5,20 +5,20 @@ Install the package (or add it to your ``requirements.txt`` file):
 
 .. code:: console
 
-    $ pip install sphinx_rtd_theme
+    $ pip install sphinx_govbr_theme
 
 In your ``conf.py`` file:
 
 .. code:: python
 
-    import sphinx_rtd_theme
+    import sphinx_govbr_theme
 
     extensions = [
         ...
-        'sphinx_rtd_theme',
+        'sphinx_govbr_theme',
     ]
 
-    html_theme = "sphinx_rtd_theme"
+    html_theme = "sphinx_govbr_theme"
 
 .. seealso::
     :ref:`supported-browsers`
@@ -43,11 +43,11 @@ Via Git or Download
    recommended. Static assets won't be included in the repository starting in
    release :ref:`3.0.0`.
 
-Symlink or subtree the ``sphinx_rtd_theme/sphinx_rtd_theme`` repository into your documentation at
-``docs/_themes/sphinx_rtd_theme`` then add the following two settings to your Sphinx
+Symlink or subtree the ``sphinx_govbr_theme/sphinx_govbr_theme`` repository into your documentation at
+``docs/_themes/sphinx_govbr_theme`` then add the following two settings to your Sphinx
 ``conf.py`` file:
 
 .. code:: python
 
-    html_theme = "sphinx_rtd_theme"
+    html_theme = "sphinx_govbr_theme"
     html_theme_path = ["_themes", ]

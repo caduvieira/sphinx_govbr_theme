@@ -30,7 +30,7 @@ html
 .wy-menu-vertical
   width: $nav-desktop-width
 
-  header, p.caption
+  header
     color: $nav-caption
     height: $base-font-size * 2
     line-height: $base-font-size * 2
@@ -41,6 +41,17 @@ html
     text-transform: uppercase
     font-size: 85%
     white-space: nowrap
+
+  p.caption
+    color: $nav-caption
+    line-height: $base-font-size * 2
+    padding: 0 $gutter
+    margin: ($base-line-height / 2) 0 0 0
+    display: block
+    font-weight: bold
+    text-transform: uppercase
+    font-size: 85%
+    white-space: break-space
 
   ul
     margin-bottom: 0
@@ -194,7 +205,6 @@ html
   padding: $gutter / 2
   margin-bottom: $gutter / 2
   z-index: $z-index-popover
-  background-color: $nav-search-background-color
   text-align: center
   color: $nav-search-color
   input[type=text]
@@ -211,7 +221,6 @@ html
     padding: 5px
     border-radius: 100%
   > a, .wy-dropdown > a
-    color: $nav-search-color
     font-size: 100%
     font-weight: bold
     display: inline-block
@@ -236,7 +245,7 @@ html
     margin-top: -1 * $gutter / 4
     margin-bottom: $gutter / 2
     font-weight: normal
-    color: rgba(255, 255, 255, 0.3)
+    @extend .govbr-text-gray-80 
 
 .wy-nav .wy-menu-vertical
   header
@@ -287,6 +296,7 @@ html
   color: $menu-medium
   background: $nav-background-color
   z-index: $z-index-popover
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.16)
 
 .wy-side-scroll
   width: $nav-desktop-width + 20px
@@ -425,3 +435,36 @@ footer
     display: none
   .wy-nav-content-wrap
     margin-left: 0
+
+#rtd-search-form
+  input[type=text]
+    width: 100%
+    border-radius: 50px
+    padding: 6px 12px
+    border-color: darken($link-color, 5%)
+    
+.template-base
+  padding-bottom: 10px
+
+.br-header
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 6px 0px
+  display: flex
+  position: relative
+  padding: 16px 0
+
+.header-title
+  font-size: 20.16px
+
+.header-bottom
+  display: flex
+
+.header-menu
+  flex: 1
+
+.container-fluid
+  max-width: 100%
+  width: 100%
+  padding-left: 40px
+  padding-right: 40px
+  margin-left: auto
+  margin-right: auto
