@@ -165,7 +165,7 @@ This will extract new messages, upload the messages to Transifex, and will
 update our local translation files. Changes can be checked in to a branch and
 put up for review.
 
-.. _Transifex: https://www.transifex.com/readthedocs/sphinx-rtd-theme
+.. _Transifex: https://www.transifex.com/readthedocs/sphinx-govbr-theme
 
 Releasing the theme
 ===================

@@ -1,4 +1,4 @@
-[sphinx-rtd-theme.sphinx-rtd-theme]
+[sphinx-govbr-theme.sphinx-govbr-theme]
 file_filter = sphinx_govbr_theme/locale/<lang>/LC_MESSAGES/sphinx.po
 source_file = sphinx_govbr_theme/locale/en/LC_MESSAGES/sphinx.po
 source_lang = en
