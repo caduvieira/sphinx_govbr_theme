@@ -94,7 +94,7 @@ version:
 
 .. _semantic versioning: http://semver.org/
 
-.. _release-1.0.0:
+.. _release-1.0.1:
 
 1.0.0
 ~~~~~

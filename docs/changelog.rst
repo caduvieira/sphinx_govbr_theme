@@ -9,6 +9,12 @@ Development version (|development_version|)
 
 .. _release-1.0.0:
 
+
+1.0.1
+=====
+
+* Criado primeira versão do sphinx-govbr-theme
+
 1.0.0
 =====
 

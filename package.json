@@ -1,7 +1,7 @@
 {
   "name": "sphinx_govbr_theme",
   "main": "js/theme.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",

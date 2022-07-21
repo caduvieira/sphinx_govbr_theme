@@ -87,7 +87,7 @@ class TransifexCommand(distutils.cmd.Command):
 
 setup(
     name='sphinx_govbr_theme',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/caduvieira/sphinx_govbr_theme',
     license='MIT',
     author='Baseado no Read the Docs, Inc. & contributors',
